@@ -8,7 +8,7 @@ body{
     grid-template-columns: 1fr;
 }
   
-@media screen and (max-width: 1400) {
+@media screen and (max-width: 1500) {
     .nav-wrapper {
         font-size: 0.1cm;
     }
