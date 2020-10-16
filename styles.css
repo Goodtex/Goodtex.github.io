@@ -9,13 +9,33 @@ body{
 }
 @media screen and (min-width: 1441px) {
   .nav-wrapper {
-    font-size: 0.4cm;
+        font-size: 0.4cm;
   }
 }
 @media screen and (max-width: 1440px) {
-  .nav-wrapper {
-    font-size: 0.1cm;
-  }
+    .nav-wrapper {
+        font-size: 0.1cm;
+    }
+    .portfolio-img-background{
+        height: 35px;
+        width: 100%;
+    }
+    .portfolio-image-background-nice{
+        height: 26px;
+        width: 100%;
+    }
+    .portfolio-image-background-home{
+        height: 80px;
+        width: 100%;
+    }
+    .portfolio-image-background-about{
+        height: 110px;
+        width: 1500px;
+    }
+    .portfolio-img-background-blouse{
+        height: 18px;
+        width: 100%;
+    }
 }
 .nav-wrapper {
     display: flex;
