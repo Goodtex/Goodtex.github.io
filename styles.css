@@ -1,6 +1,6 @@
 body{
     font-family: 'Slabo 30px', serif;
-    font-size: 0.2cm;
+    font-size: 0.3cm;
     margin: 0px;
 }
 .container{
@@ -9,8 +9,9 @@ body{
 }
 .nav-wrapper {
     justify-content: space-between;
+    justify-content: left;
     padding-left: 0%;
-    font-size: 0.2cm;
+    font-size: 0.3cm;
     text-transform: uppercase;
 }
 .nav-link-wrapper{
