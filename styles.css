@@ -7,6 +7,53 @@ body{
     display: grid;
     grid-template-columns: 1fr;
 }
+@media screen and (min-width: 10px) {
+    .nav-wrapper {
+        font-size: 0.1cm;
+    }
+    .portfolio-image-background-nice{
+        height: 26px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .portfolio-image-background-home{
+        height: 80px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .portfolio-image-background-about{
+        height: 110px;
+        width: 150px;
+        padding-left: 1px;
+        background-position: left;
+        background-repeat: no-repeat;
+    }
+    .portfolio-img-background-blouse{
+        height: 18px;
+        width: 100%;
+        background-size: cover;
+        background-blend-mode: darken;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .portfolio-img-background{
+        height: 35px;
+        width: 100%;
+        background-size: cover;
+        background-blend-mode: darken;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+  
+@media screen and (max-width: 1200px) {
+    .nav-wrapper {
+        font-size: 0.4cm;
+    }
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
