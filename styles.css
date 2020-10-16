@@ -7,13 +7,13 @@ body{
     display: grid;
     grid-template-columns: 1fr;
 }
-@media screen and (min-width: 201px) {
+@media screen and (min-width: 301px) {
     .nav-wrapper {
         font-size: 0.4cm;
     }
 }
   
-@media screen and (max-width: 200) {
+@media screen and (max-width: 300) {
     .nav-wrapper {
         font-size: 0.1cm;
     }
