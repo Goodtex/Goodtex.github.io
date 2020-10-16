@@ -9,25 +9,14 @@ body{
 }
 .nav-wrapper {
     display: flex;
-    justify-content: space-between;
-    padding: 38px;
-}
-.left-side {
-    display: flex;   
-}
-.nav-wrapper > .left-side > div {
-    font-size: 1.0em;
-    text-transform: uppercase;
+    justify-content: left;
     padding-left: 0%;
-}
-.nav-wrapper > .right-side > div {
-    margin-right: 20px;
+    padding: 30px;
     font-size: 1.0em;
     text-transform: uppercase;
 }
-
 .nav-link-wrapper{
-    height: 22px;
+    height: 20px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
