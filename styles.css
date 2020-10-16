@@ -8,10 +8,9 @@ body{
     grid-template-columns: 1fr;
 }
 .nav-wrapper {
-    display: flex;
     justify-content: space-between;
     padding-left: 0%;
-    font-size: 1.1em;
+    font-size: 0.2cm;
     text-transform: uppercase;
 }
 .nav-link-wrapper{
