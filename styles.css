@@ -12,6 +12,11 @@ body{
     font-size: 0.4cm;
   }
 }
+@media screen and (max-width: 1440px) {
+  .nav-wrapper {
+    font-size: 0.1cm;
+  }
+}
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
