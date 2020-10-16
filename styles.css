@@ -7,6 +7,11 @@ body{
     display: grid;
     grid-template-columns: 1fr;
 }
+@media screen and (min-width: 1441px) {
+  .nav-wrapper {
+    font-size: 0.4cm;
+  }
+}
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
