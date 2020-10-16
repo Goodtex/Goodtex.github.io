@@ -16,8 +16,9 @@ body{
     display: flex;   
 }
 .nav-wrapper > .left-side > div {
-    font-size: 1.2em;
+    font-size: 1.0em;
     text-transform: uppercase;
+    padding-left: 0%;
 }
 .nav-wrapper > .right-side > div {
     margin-right: 20px;
