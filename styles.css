@@ -9,7 +9,7 @@ body{
 }
 .nav-wrapper {
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     padding-left: 0%;
     padding: 30px;
     font-size: 1.0em;
