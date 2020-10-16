@@ -8,29 +8,9 @@ body{
     grid-template-columns: 1fr;
 }
   
-@media screen and (max-width: 15000) {
+@media screen and (min-width: 15000) {
     .nav-wrapper {
-        font-size: 0.1cm;
-    }
-    .portfolio-image-background-nice{
-        height: 26px;
-        width: 100%;
-    }
-    .portfolio-image-background-home{
-        height: 80px;
-        width: 100%;
-    }
-    .portfolio-image-background-about{
-        height: 110px;
-        width: 150px;
-    }
-    .portfolio-img-background-blouse{
-        height: 18px;
-        width: 100%;
-    }
-    .portfolio-img-background{
-        height: 35px;
-        width: 100%;
+        font-size: 0.4cm;
     }
 }
 
