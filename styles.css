@@ -1,6 +1,6 @@
 body{
     font-family: 'Slabo 30px', serif;
-    font-size: 0.3cm;
+    font-size: 0.4cm;
     margin: 0px;
 }
 .container{
@@ -8,14 +8,26 @@ body{
     grid-template-columns: 1fr;
 }
 .nav-wrapper {
+    display: flex;
     justify-content: space-between;
-    justify-content: left;
-    padding-left: 0%;
+    padding: 38px;
+}
+.left-side {
+    display: flex;   
+}
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
     font-size: 1.2em;
     text-transform: uppercase;
 }
+.nav-wrapper > .right-side > div {
+    margin-right: 20px;
+    font-size: 1.0em;
+    text-transform: uppercase;
+}
+
 .nav-link-wrapper{
-    height: 20px;
+    height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
